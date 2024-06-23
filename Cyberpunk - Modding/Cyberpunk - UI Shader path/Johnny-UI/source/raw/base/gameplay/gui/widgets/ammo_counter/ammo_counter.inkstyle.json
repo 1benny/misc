@@ -1,0 +1,239 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.11.0-nightly.2023-09-27",
+    "WKitJsonVersion": "0.0.8",
+    "GameVersion": 2000,
+    "ExportedDateTime": "2023-09-27T16:50:14.4863960Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Ben\\Desktop\\WolvenKit\\yeah\\source\\archive\\base\\gameplay\\gui\\widgets\\ammo_counter\\ammo_counter.inkstyle"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "inkStyleResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "hideInInheritingStyles": 0,
+      "styleImports": [
+        {
+          "DepotPath": {
+            "$type": "ResourcePath",
+            "$storage": "string",
+            "$value": "base\\gameplay\\gui\\common\\main_colors.inkstyle"
+          },
+          "Flags": "Default"
+        }
+      ],
+      "styles": [
+        {
+          "$type": "inkStyle",
+          "properties": [
+            {
+              "$type": "inkStyleProperty",
+              "propertyPath": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "ammo.value"
+              },
+              "value": {
+                "$type": "inkStylePropertyReference",
+                "Value": {
+                  "$type": "inkStylePropertyReference",
+                  "referencedPath": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "MainColors.White"
+                  }
+                }
+              }
+            },
+            {
+              "$type": "inkStyleProperty",
+              "propertyPath": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "ammo.icon"
+              },
+              "value": {
+                "$type": "inkStylePropertyReference",
+                "Value": {
+                  "$type": "inkStylePropertyReference",
+                  "referencedPath": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "MainColors.White"
+                  }
+                }
+              }
+            },
+            {
+              "$type": "inkStyleProperty",
+              "propertyPath": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "ammo.progress_bk"
+              },
+              "value": {
+                "$type": "inkStylePropertyReference",
+                "Value": {
+                  "$type": "inkStylePropertyReference",
+                  "referencedPath": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "MainColors.Black"
+                  }
+                }
+              }
+            },
+            {
+              "$type": "inkStyleProperty",
+              "propertyPath": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "ammo.progress_value"
+              },
+              "value": {
+                "$type": "inkStylePropertyReference",
+                "Value": {
+                  "$type": "inkStylePropertyReference",
+                  "referencedPath": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "MainColors.Grey"
+                  }
+                }
+              }
+            },
+            {
+              "$type": "inkStyleProperty",
+              "propertyPath": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "ammo.base_opacity"
+              },
+              "value": {
+                "$type": "Float",
+                "Value": 0.18
+              }
+            }
+          ],
+          "state": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "Disabled"
+          },
+          "styleID": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "ammo"
+          }
+        },
+        {
+          "$type": "inkStyle",
+          "properties": [
+            {
+              "$type": "inkStyleProperty",
+              "propertyPath": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "ammo.value"
+              },
+              "value": {
+                "$type": "inkStylePropertyReference",
+                "Value": {
+                  "$type": "inkStylePropertyReference",
+                  "referencedPath": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "MainColors.Blue"
+                  }
+                }
+              }
+            },
+            {
+              "$type": "inkStyleProperty",
+              "propertyPath": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "ammo.icon"
+              },
+              "value": {
+                "$type": "inkStylePropertyReference",
+                "Value": {
+                  "$type": "inkStylePropertyReference",
+                  "referencedPath": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "MainColors.Blue"
+                  }
+                }
+              }
+            },
+            {
+              "$type": "inkStyleProperty",
+              "propertyPath": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "ammo.progress_bk"
+              },
+              "value": {
+                "$type": "inkStylePropertyReference",
+                "Value": {
+                  "$type": "inkStylePropertyReference",
+                  "referencedPath": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "MainColors.FaintRed"
+                  }
+                }
+              }
+            },
+            {
+              "$type": "inkStyleProperty",
+              "propertyPath": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "ammo.progress_value"
+              },
+              "value": {
+                "$type": "inkStylePropertyReference",
+                "Value": {
+                  "$type": "inkStylePropertyReference",
+                  "referencedPath": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "MainColors.Red"
+                  }
+                }
+              }
+            },
+            {
+              "$type": "inkStyleProperty",
+              "propertyPath": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "ammo.base_opacity"
+              },
+              "value": {
+                "$type": "Float",
+                "Value": 1
+              }
+            }
+          ],
+          "state": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "Default"
+          },
+          "styleID": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "ammo"
+          }
+        }
+      ],
+      "themes": []
+    },
+    "EmbeddedFiles": []
+  }
+}
